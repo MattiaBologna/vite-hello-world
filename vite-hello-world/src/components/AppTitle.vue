@@ -4,7 +4,6 @@ export default {
     data() {
         return {
             title: 'La mia prima app con Vue!',
-            counter: 0,
         }
     }
 }
@@ -12,8 +11,6 @@ export default {
 
 <template>
     <h1>{{ title }}</h1>
-    <button @click="counter++">Counter</button>
-    <div>{{ counter }}</div>
 </template>
 
 <style scoped>
