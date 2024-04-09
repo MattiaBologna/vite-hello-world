@@ -1,24 +1,19 @@
 <script>
+import AppTitle from './components/AppTitle.vue'
+
 export default {
-  data () {
-    return {
-      message: 'My first Vite App'
-    }
-  },
-  methods: {
-    sayHello () {
-      console.log('ciao')
-    }
+  components: {
+    AppTitle
   }
 }
 </script>
 
 <template>
-  <h1 class="title"> {{ message }}</h1>
+  <h1>	Titolo App.vue</h1>
+  <AppTitle/>
+  <AppTitle/>
 </template>
 
 <style>
-.title {
-  color: violet;
-}
+
 </style>
